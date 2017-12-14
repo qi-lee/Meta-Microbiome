@@ -4,6 +4,7 @@
 
 ### The pipeline was developed by QiLi (liqi at ihb.ac.cn, Lab of Algal Genomics). External software used by this pipeline are copyright respective authors.
 <br>
+
 ### The pipeline can be broadly separated into seven main sections：
 * 1.Preprocess
 * 2.Assembly
