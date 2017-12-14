@@ -6,8 +6,10 @@ The first public release (version 0.3) was developed and completed by [Umer Zees
 
 **NEW:**
 **Thu 11 Aug 2016** 
+
 **We used deduced amino acid sequence information through DIAMOND BLASTP (Buchfink et al 2015) searches, instead of nucleotide sequences through BLASTN searches, to produce a protein sequence alignment against the NCBI non-redundant (nr) protein database. 
-**liqi, liqi@ihb.ac.cn 
+
+**liqi, (liqi at ihb.ac.cn) 
 
 
 **Event title:** ProBin: Probabilistic binning for metagenome contigs  
