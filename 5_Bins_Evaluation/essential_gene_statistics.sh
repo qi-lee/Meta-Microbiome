@@ -13,7 +13,7 @@ for (( i = 0 ; $i < $groupnum; i++ ))
 do
     grep ">" group_$i.fa > group_$i.list
     contigsnum=`grep ">" group_$i.fa | wc -l`
-    ./found_essential_gene_by_group.pl hmm_orf_alignment.txt group_$i.list > group_$i.essential_gene
+    ../Script/found_essential_gene_by_group.pl hmm_orf_alignment.txt group_$i.list > group_$i.essential_gene
     essgenenum=`cut -f 2 group_$i.essential_gene | sort | uniq -c | wc -l`
     prodigal -a group_$i.prodigal_orf.faa -i group_$i.fa -m -o group_$i.prodigal_stdout -p meta -q
     cut -f1 -d " " group_$i.prodigal_orf.faa > group_$i.orf.faa
