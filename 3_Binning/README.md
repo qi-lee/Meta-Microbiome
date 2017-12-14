@@ -3,5 +3,5 @@
 
 ### The original author of the script is minleiR. An operable and detailed step-by-step guide is provided, please see http://mingleir.github.io/meta-binning/?from=singlemessage&isappinstalled=0
 
-## This is a professional version with some modifications by liqi (liqi at ihb.ac.cn).
+## This is a professional version with some modifications.
 
