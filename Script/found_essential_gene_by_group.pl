@@ -7,7 +7,7 @@ use strict;
 ## Function: 
 ## Usage $: found_essential_gene_by_group.pl hmm_orf_alignment.txt group_1.list 
 ## Author: liqi (lab of algal genomics)
-## Mail: liqi@ihb.ac.cn
+## Mail: liqi at ihb.ac.cn
 ## Created Time: Wed 09 Sep 2015 04:10:53 PM CST
 ###############################################
 
