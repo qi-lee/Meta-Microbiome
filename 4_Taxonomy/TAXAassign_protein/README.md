@@ -5,9 +5,9 @@ TAXAassign is useful for annotating nucleotide sequences (contigs from assemblie
 The first public release (version 0.3) was developed and completed by [Umer Zeeshan Ijaz](http://userweb.eng.gla.ac.uk/umer.ijaz/index.htm) under the supervision of [Christopher Quince](http://userweb.eng.gla.ac.uk/christopher.quince) in the following hackathon:
 
 **NEW:**
-** Thu 11 Aug 2016**
-** We used deduced amino acid sequence information through DIAMOND BLASTP (Buchfink et al 2015) searches, instead of nucleotide sequences through BLASTN searches, to produce a protein sequence alignment against the NCBI non-redundant (nr) protein database.
-** liqi, liqi@ihb.ac.cn
+**Thu 11 Aug 2016**
+**We used deduced amino acid sequence information through DIAMOND BLASTP (Buchfink et al 2015) searches, instead of nucleotide sequences through BLASTN searches, to produce a protein sequence alignment against the NCBI non-redundant (nr) protein database.
+**liqi, liqi@ihb.ac.cn
 
 
 **Event title:** ProBin: Probabilistic binning for metagenome contigs  
