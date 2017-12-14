@@ -2,7 +2,7 @@
 
 ## This package is built around a collection of publicly available tools and personal scripts tied together for analyzing metagenomic microbiome datasets.
 
-### The pipeline was developed by QiLi (liqi at ihb.ac.cn, Lab of Algal Genomics). External software used by the this pipeline are copyright respective authors.
+### The pipeline was developed by QiLi (liqi at ihb.ac.cn, Lab of Algal Genomics). External software used by this pipeline are copyright respective authors.
 <br><br>
 ### The pipeline can be broadly separated into seven main sections：
 * 1.Preprocess
