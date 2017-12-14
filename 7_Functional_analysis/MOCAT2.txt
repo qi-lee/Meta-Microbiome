@@ -1,0 +1,12 @@
+MOCAT2
+
+MOCAT2 (metagenomic analysis toolkit) is a package for analyzing metagenomics datasets.
+
+MOCAT2 is Copyright (c) 2012-2016 Jens Roat Kultima, Luis Pedro Coelho & Shinichi Sunagawa, EMBL and BGI. External software used by the MOCAT2 pipeline are copyright respective authors. 
+
+
+Reference:
+Kultima, J. R., Coelho, L. P., Forslund, K., Huerta-Cepas, J., Li, S. S., Driessen, Bork, P. (2016). MOCAT2: a metagenomic assembly, annotation and profiling framework. Bioinformatics . http://doi.org/10.1093/bioinformatics/btw183
+
+
+http://vm-lux.embl.de/~kultima/MOCAT/

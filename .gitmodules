@@ -1,0 +1,6 @@
+[submodule "4_Taxonomy/TAXAassign"]
+	path = 4_Taxonomy/TAXAassign
+	url = https://github.com/umerijaz/TAXAassign
+[submodule "2_Assembly/Meta-IDBA/idba"]
+	path = 2_Assembly/Meta-IDBA/idba
+	url = https://github.com/loneknightpy/idba

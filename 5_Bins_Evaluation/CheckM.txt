@@ -1,0 +1,10 @@
+CheckM
+
+CheckM provides a set of tools for assessing the quality of genomes recovered from isolates, single cells, or metagenomes.
+
+
+Reference:
+Parks DH, Imelfort M, Skennerton CT, Hugenholtz P, Tyson GW. 2014. Assessing the quality of microbial genomes recovered from isolates, single cells, and metagenomes. Genome Research, 25: 1043-1055.
+
+
+CheckM is open source software available at http://ecogenomics.github.io/CheckM.

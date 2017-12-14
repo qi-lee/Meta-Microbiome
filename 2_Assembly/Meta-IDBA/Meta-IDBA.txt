@@ -1,0 +1,11 @@
+Meta-IDBA
+
+Meta-IDBA is an iterative De Bruijn Graph De Novo short read assembler specially designed for de novo metagenomic assembly. One of the most difficult problem in metagenomic assembly is that similar subspecies of the same species mix together to make the de Bruijn graph very complicated and intractable. Meta-IDBA handles this problem grouping similar regions of similar subspecies by partitioning the graph into components based on the topological structure of the graph. Each component represents a similar region between subspecies from the same species or even from different species. After the components are separated, all contigs in it are aligned to produced a consensus and also the multiple 
+
+
+References:
+Peng, Y., et al. (2010) IDBA- A Practical Iterative de Bruijn Graph De Novo Assembler. RECOMB. Lisbon.
+Peng, Y., et al. (2011) Meta-IDBA: a de Novo assembler for metagenomic data, Bioinformatics, 27, i94-101.
+
+
+https://github.com/loneknightpy/idba
