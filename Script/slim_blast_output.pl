@@ -28,7 +28,7 @@ use strict;
 
 =head1 AUTHOR
 
-  liqi , liqi@ihb.ac.cn
+  liqi , liqi at ihb.ac.cn
 
 =head1 COPYRIGHT
     
