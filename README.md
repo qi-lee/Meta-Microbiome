@@ -2,7 +2,7 @@
 
 ## This package is built around a collection of publicly available tools tied together for analyzing metagenomics datasets.
 
-## The pipeline can be broadly separated into seven main sections：
+### The pipeline can be broadly separated into seven main sections：
 * 1.Preprocess
 * 2.Assembly
 * 3.Binning
