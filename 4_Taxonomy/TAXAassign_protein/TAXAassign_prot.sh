@@ -78,7 +78,7 @@
 #
 #            You should have received a copy of the GNU General Public License
 #            along with this program.  If not, see <http://www.gnu.org/licenses/>.
-# Last modified: QiLi  2016-08-11 (We used deduced amino acid sequence information through DIAMOND BLASTP (Buchfink et al 2015) searches, instead of nucleotide sequences through BLASTN searches, to produce a protein sequence alignment against the NCBI non-redundant (nr) protein database.)
+# Last modified: QiLi   2016-08-11 (We used deduced amino acid sequence information through DIAMOND BLASTP (Buchfink et al 2015) searches, instead of nucleotide sequences through BLASTN searches, to produce a protein sequence alignment against the NCBI non-redundant (nr) protein database.)
 # **************************************************************/     
 
 HELPDOC=$( cat <<EOF
