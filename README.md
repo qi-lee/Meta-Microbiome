@@ -31,6 +31,6 @@
     Qi J, Luo H, Hao B. CVTree: a phylogenetic tree reconstruction tool based on whole genomes[J]. Nucleic acids research, 2004, 32(suppl_2): W45-W47.
     Quinlan A R, Hall I M. BEDTools: a flexible suite of utilities for comparing genomic features[J]. Bioinformatics, 2010, 26(6): 841-842.
     Xie M, Ren M, Yang C, et al. Metagenomic analysis reveals symbiotic relationship among bacteria in microcystis-dominated community[J]. Frontiers in microbiology, 2016, 7.
-
+<br>
 
 #### Questions or Comments, please contact liqi at ihb.ac.cn.
