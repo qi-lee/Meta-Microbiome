@@ -33,4 +33,4 @@
     Xie M, Ren M, Yang C, et al. Metagenomic analysis reveals symbiotic relationship among bacteria in microcystis-dominated community[J]. Frontiers in microbiology, 2016, 7.
 <br>
 
-#### Questions or Comments, please contact liqi at ihb.ac.cn.
+#### Questions or Comments, please contact: liqi at ihb.ac.cn.
