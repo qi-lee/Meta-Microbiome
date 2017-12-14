@@ -4,11 +4,11 @@
 
 ## The pipeline can be broadly separated into seven main sections：
 * 1.Preprocess
-    * 2.Assembly
-    * 3.Binning
-    * 4.Taxonomy
-    * 5.Bins_Evaluation
-    * 6.Phylogenetic_analysis
-    * 7.Functional_analysis
+* 2.Assembly
+* 3.Binning
+* 4.Taxonomy
+* 5.Bins_Evaluation
+* 6.Phylogenetic_analysis
+* 7.Functional_analysis
 
 
