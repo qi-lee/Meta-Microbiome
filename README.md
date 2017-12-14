@@ -17,7 +17,7 @@
 
 ### Reference:
     Andrews S. FastQC: a quality control tool for high throughput sequence data[J]. 2010.<br>
-Bankevich A, Nurk S, Antipov D, et al. SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing[J]. Journal of computational biology, 2012, 19(5): 455-477.<br>
+        Bankevich A, Nurk S, Antipov D, et al. SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing[J]. Journal of computational biology, 2012, 19(5): 455-477.<br>
 Bolger A M, Lohse M, Usadel B. Trimmomatic: a flexible trimmer for Illumina sequence data[J]. Bioinformatics, 2014, 30(15): 2114-2120.<br>
 Buchfink B, Xie C, Huson D H. Fast and sensitive protein alignment using DIAMOND[J]. Nature methods, 2015, 12(1): 59-60.<br>
 Huson D H, Beier S, Flade I, et al. MEGAN community edition-interactive exploration and analysis of large-scale microbiome sequencing data[J]. PLoS computational biology, 2016, 12(6): e1004957.<br>
