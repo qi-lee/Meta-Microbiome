@@ -13,8 +13,10 @@
 * 5.Bins_Evaluation
 * 6.Phylogenetic_analysis
 * 7.Functional_analysis
+<br>
 
 ### Reference:
 Andrews S. FastQC: a quality control tool for high throughput sequence data[J]. 2010.<br>
+Bolger A M, Lohse M, Usadel B. Trimmomatic: a flexible trimmer for Illumina sequence data[J]. Bioinformatics, 2014, 30(15): 2114-2120.<br>
 
 #### Questions or Comments, please contact liqi at ihb.ac.cn.
