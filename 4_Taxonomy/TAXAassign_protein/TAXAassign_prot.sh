@@ -64,7 +64,6 @@
 # Version:   0.4
 # Authors:   Umer Zeeshan Ijaz (Umer.Ijaz@glasgow.ac.uk)
 #                 http://userweb.eng.gla.ac.uk/umer.ijaz
-# Last modified:   2013-07-18
 # License:   Copyright (c) 2013 Computational Microbial Genomics Group, University of Glasgow, UK
 #
 #            This program is free software: you can redistribute it and/or modify
@@ -79,6 +78,7 @@
 #
 #            You should have received a copy of the GNU General Public License
 #            along with this program.  If not, see <http://www.gnu.org/licenses/>.
+# Last modified: QiLi  2016-08-11 (We used deduced amino acid sequence information through DIAMOND BLASTP (Buchfink et al 2015) searches, instead of nucleotide sequences through BLASTN searches, to produce a protein sequence alignment against the NCBI non-redundant (nr) protein database.)
 # **************************************************************/     
 
 HELPDOC=$( cat <<EOF
