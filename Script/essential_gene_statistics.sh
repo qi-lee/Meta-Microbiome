@@ -1,6 +1,6 @@
 #!/bin/bash
 #############################################
-# AUTHOR:liqi , liqi@ihb.ac.cn
+# AUTHOR:liqi , liqi at ihb.ac.cn
 # COPYRIGHT:Copyright - Lab of Algal Genomics
 #############################################
 
