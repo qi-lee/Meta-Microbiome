@@ -15,6 +15,6 @@
 * 7.Functional_analysis
 
 ### Reference:
-<br>
+Andrews S. FastQC: a quality control tool for high throughput sequence data[J]. 2010.<br>
 
 #### Questions or Comments, please contact liqi at ihb.ac.cn.
