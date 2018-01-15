@@ -46,7 +46,7 @@
 ### * 5.Bins_Evaluation
   Since genomes reconstructed from metagenomic data usually vary substantially in their qualities, we proposed a set of quality criteria with quantitative thresholds to evaluate the quality of these genomes for subsequent analyses.
 
-![image](https://github.com/qi-lee/Meta-Microbiome/blob/master/5_Bins_Evaluation/quality.JPG)
+    ![image](https://github.com/qi-lee/Meta-Microbiome/blob/master/5_Bins_Evaluation/quality.JPG)
     
 <br>
 
