@@ -33,9 +33,10 @@
   In order to bin metagenomics sequence, we have to collect some fetures about the assembled fragments. The output of some assembler, such as SPAdes, Velvet and AByss, provide the coverage value of each cotigs in the header. If there isn’t coverage information in the assembly data, we can map reads to contigs using BWA or Bowtie to get coverage information instead. For each contigs, GC content, length and coverage are extracted from assembly file using my perl script. The script outputs the file contigs.info including 4 column, that is contig name, contig length, GC content and coverage. Additionly, we utilize the essential gene sets to draw back some assembly fragements from the unassigned sequences. The process of obtaining the information of essential gene contained in the assembly was doned by the same perl script.
 
     calc_contiginfo_essentialgene_v3.pl -r scaffolds.fasta -1 R1_paired_trimmed.fq -2 R2_paired_trimmed.fq -m 500 -I 0 -X 600 -p phred64 -t 30
-Binning the metagenomic assembly using selected features
+Binning the metagenomic assembly using selected features.
 
     Meta-binning.R
+The process of selecting the contigs in each area may be time-consuming, it totally depends on the complexity of the metagenomics project. Sometimes, you need to combine more than one level value to get the optimal inital group.
 <br>
 
 ### * 4.Taxonomy
