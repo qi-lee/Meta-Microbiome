@@ -55,11 +55,15 @@ To infer phylogenetic relationships among bacteria, a whole-genome based and ali
 
     cvtree -i species.list -p data -o CVTree_k6.txt -k 6
     neighbor
+Other related software: PHYLIP, MEGAN.
 <br>
 
 ### * 7.Functional analysis
 
-To further compare the functional potential of each group, the predicted ORFs were analyzed using the GhostKOALA service on the KEGG website. When the results were returned through your email, open the links and then compare your interesting pathway.
+Functional characterization and annotation of protein encoding genes were performed by MOCAT2. To further compare the functional potential of each group, the predicted ORFs were analyzed using the GhostKOALA service on the KEGG website. When the results were returned through your email, open the links and then compare your interesting pathway.
+    
+    http://www.kegg.jp/ghostkoala/
+Other related software: MEGAN.
 
 <br>
 
