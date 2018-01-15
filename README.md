@@ -37,6 +37,7 @@ Binning the metagenomic assembly using selected features.
 
     Meta-binning.R
 The process of selecting the contigs in each area may be time-consuming, it totally depends on the complexity of the metagenomics project. Sometimes, you need to combine more than one level value to get the optimal inital group.
+
 <br>
 
 ### * 4.Taxonomy
@@ -86,6 +87,7 @@ Other related software: MEGAN.
     Qi J, Luo H, Hao B. CVTree: a phylogenetic tree reconstruction tool based on whole genomes[J]. Nucleic acids research, 2004, 32(suppl_2): W45-W47.
     Quinlan A R, Hall I M. BEDTools: a flexible suite of utilities for comparing genomic features[J]. Bioinformatics, 2010, 26(6): 841-842.
     Xie M, Ren M, Yang C, et al. Metagenomic analysis reveals symbiotic relationship among bacteria in microcystis-dominated community[J]. Frontiers in microbiology, 2016, 7.
+    Xu Z, Hao B. CVTree update: a newly designed phylogenetic study platform using composition vectors and whole genomes[J]. Nucleic acids research, 2009, 37(suppl_2): W174-W178.
 <br>
 
 #### Questions or Comments, please contact: liqi at ihb.ac.cn.
