@@ -53,9 +53,11 @@
 ### * 6.Phylogenetic analysis
 
 <br>
+
 ### * 7.Functional analysis
 
 <br>
+
 ### Reference:
     Andrews S. FastQC: a quality control tool for high throughput sequence data[J]. 2010.
     Bankevich A, Nurk S, Antipov D, et al. SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing[J]. Journal of computational biology, 2012, 19(5): 455-477.
