@@ -32,8 +32,19 @@
 ### * 3.Binning
   In order to bin metagenomics sequence, we have to collect some fetures about the assembled fragments. The output of some assembler, such as SPAdes, Velvet and AByss, provide the coverage value of each cotigs in the header. If there isn’t coverage information in the assembly data, we can map reads to contigs using BWA or Bowtie to get coverage information instead. For each contigs, GC content, length and coverage are extracted from assembly file using my perl script. The script outputs the file contigs.info including 4 column, that is contig name, contig length, GC content and coverage. Additionly, we utilize the essential gene sets to draw back some assembly fragements from the unassigned sequences. The process of obtaining the information of essential gene contained in the assembly was doned by the same perl script.
 
-    calc_contiginfo_essentialgene_v3.pl -r scaffolds.fasta -1 R1_paired_trimmed.fq -2 R2_paired_trimmed.fq -m 1000 -I 0 -X 600 -p phred64 -t 30
-  
+    calc_contiginfo_essentialgene_v3.pl -r scaffolds.fasta -1 R1_paired_trimmed.fq -2 R2_paired_trimmed.fq -m 500 -I 0 -X 600 -p phred64 -t 30
+    
+<br>
+
+### * 4.Taxonomy
+  We implemented taxonomic assignments of the genome bins using TAXAassign with some modiﬁed codes for efﬁciency and accuracy. We used deduced amino acid sequence information through DIAMOND BLASTP (Buchfink et al 2015) searches, instead of nucleotide sequences through BLASTN searches, to produce a protein sequence alignment against the NCBI non-redundant (nr) protein database. 
+    
+    TAXAassign_prot.sh -c 30 -r 100 -t 60 -m 60 -q 50 -a "60,65,70,80,95,95" -f All_bins.faa
+
+<br>
+
+### * 5.Bins_Evaluation
+  Since genomes reconstructed from metagenomic data usually vary substantially in their qualities, we proposed a set of quality criteria with quantitative thresholds to evaluate the quality of these genomes for subsequent analyses.
   
 
 
