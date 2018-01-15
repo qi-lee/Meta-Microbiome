@@ -51,7 +51,10 @@
 <br>
 
 ### * 6.Phylogenetic analysis
+To infer phylogenetic relationships among bacteria, a whole-genome based and alignment-free Composition Vector Tree (CVTree) method (Xu and Hao, 2009) was applied to the comparison and clustering of the 68 genomes we extracted from our assemblies.
 
+    cvtree -i species.list -p data -o CVTree_k6.txt -k 6
+    neighbor
 <br>
 
 ### * 7.Functional analysis
