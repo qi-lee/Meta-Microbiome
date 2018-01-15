@@ -10,9 +10,9 @@
 * 2.Assembly
 * 3.Binning
 * 4.Taxonomy
-* 5.Bins_Evaluation
-* 6.Phylogenetic_analysis
-* 7.Functional_analysis
+* 5.Bins Evaluation
+* 6.Phylogenetic analysis
+* 7.Functional analysis
 <br>
 
 ### * 1.Preprocess
