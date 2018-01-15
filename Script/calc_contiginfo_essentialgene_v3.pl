@@ -5,11 +5,11 @@ use strict;
 
 =head1 SYNOPSIS
 
-   Basic usage : perl calc_contiginfo_essentialgene_v2.pl -i fasta -1 reads1 -2 reads2 [-options]
+   Basic usage : perl calc_contiginfo_essentialgene_v3.pl -i fasta -1 reads1 -2 reads2 [-options]
 
    Example :
-            1. $ perl calc_contiginfo_essentialgene_v2.pl -i scaffolds.fasta -1 R1_paired.fq -2 R2_paired.fq
-            2. $ perl calc_contiginfo_essentialgene_v2.pl -i scaffolds.fasta -1 R1_paired.fq -2 R2_paired.fq -N 100 -X 1200 -p phred33 -b "--end-to-end --fast"
+            1. $ perl calc_contiginfo_essentialgene_v3.pl -i scaffolds.fasta -1 R1_paired.fq -2 R2_paired.fq
+            2. $ perl calc_contiginfo_essentialgene_v3.pl -i scaffolds.fasta -1 R1_paired.fq -2 R2_paired.fq -N 100 -X 1200 -p phred33 -b "--end-to-end --fast"
    
    Option Description :
             -h  --help_message
