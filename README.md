@@ -37,7 +37,7 @@
 <br>
 
 ### * 4.Taxonomy
-  We implemented taxonomic assignments of the genome bins using TAXAassign with some modiﬁed codes for efﬁciency and accuracy. We used deduced amino acid sequence information through DIAMOND BLASTP (Buchfink et al 2015) searches, instead of nucleotide sequences through BLASTN searches, to produce a protein sequence alignment against the NCBI non-redundant (nr) protein database. 
+  We implemented taxonomic assignments of the genome bins using TAXAassign with some modiﬁed codes for efﬁciency and accuracy. We used deduced amino acid sequence information through DIAMOND BLASTP searches, instead of nucleotide sequences through BLASTN searches, to produce a protein sequence alignment against the NCBI non-redundant (nr) protein database. 
     
     TAXAassign_prot.sh -c 30 -r 100 -t 60 -m 60 -q 50 -a "60,65,70,80,95,95" -f All_bins.faa
 
@@ -51,13 +51,15 @@
 <br>
 
 ### * 6.Phylogenetic analysis
-To infer phylogenetic relationships among bacteria, a whole-genome based and alignment-free Composition Vector Tree (CVTree) method (Xu and Hao, 2009) was applied to the comparison and clustering of the 68 genomes we extracted from our assemblies.
+To infer phylogenetic relationships among bacteria, a whole-genome based and alignment-free Composition Vector Tree (CVTree) method was applied to the comparison and clustering of the 68 genomes we extracted from our assemblies.
 
     cvtree -i species.list -p data -o CVTree_k6.txt -k 6
     neighbor
 <br>
 
 ### * 7.Functional analysis
+
+To further compare the functional potential of each group, the predicted ORFs were analyzed using the GhostKOALA service on the KEGG website. When the results were returned through your email, open the links and then compare your interesting pathway.
 
 <br>
 
