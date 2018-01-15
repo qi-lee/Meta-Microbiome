@@ -21,6 +21,10 @@
     java -jar xx/software/trimmomatic-0.xx.jar PE -threads 30 -phred64 xx/R1.fq xx/R2.fq R1_paired_trimmed.fq R1_unpaired_trimmed.fq R2_paired_trimmed.fq R2_unpaired_trimmed.fq ILLUMINACLIP:xx/Trimmomatic-0.xx/adapters/TruSeqxxx.fa:2:30:10 LEADING:10 TRAILING:10 SLIDINGWINDOW:4:20 MINLEN:20
     
 ### * 2.Assembly
+  There are two types of sequence assembly, that is overlap/layout/consensus approach and de Bruijn graph approach. Because of the characteristics of next-generation sequencing platform and the incompletion of reference genome, de nove assembly is appropriate for metagenomics assembly. According to our experience, we use SPAdes Genomes Assembler to assembly our data. Executinng SPAdes as the following command:
+  
+    spades.py -o output -k 21,33,55 --pe1-1 xx/R1_paired_trimmed.fq --pe1-2 xx/R2_paired_trimmed.fq --pe1-s xx/R1R2_unpaired_trimmed.fq --mp1-1 xx/MP_R1_paired_trimmed.fq --mp1-2 xx/MP_R2_paired_trimmed.fq --mp1-s xx/MP_R1R2_unpaired_trimmed.fq --pacbio xx/filtered_subreads.fastq --careful --cov-cutoff 3 --disable-gzip-output -t 20 -m 500
+    
      
 
 
