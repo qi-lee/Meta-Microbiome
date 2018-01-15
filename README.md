@@ -28,7 +28,11 @@
     spades.py -o output -k 21,33,55 --pe1-1 xx/R1_paired_trimmed.fq --pe1-2 xx/R2_paired_trimmed.fq --pe1-s xx/R1R2_unpaired_trimmed.fq --mp1-1 xx/MP_R1_paired_trimmed.fq --mp1-2 xx/MP_R2_paired_trimmed.fq --mp1-s xx/MP_R1R2_unpaired_trimmed.fq --pacbio xx/filtered_subreads.fastq --careful --cov-cutoff 3 --disable-gzip-output -t 20 -m 500
 
 <br>
-     
+
+### * 3.Binning
+  In order to bin metagenomics sequence, we have to collect some fetures about the assembled fragments. For each contigs, GC content, length and coverage are extracted from assembly file using our R script. The script outputs the file contigs.info including 4 column, that is contig name, contig length, GC content and coverage.
+  The output of some assembler, such as SPAdes, Velvet and AByss, provide the coverage value of each cotigs in the header. If there isn’t coverage information in the assembly data, we can map reads to contigs using BWA or Bowtie to get coverage information instead.
+  
 
 
 ### Reference:
