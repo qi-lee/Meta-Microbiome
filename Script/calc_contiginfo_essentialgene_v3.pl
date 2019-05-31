@@ -136,7 +136,7 @@ sub essential_gene{
     my ($contig) = @_;
     system("prodigal -a temp_prodigal_orf.faa -i $contig -m -o temp_prodigal_stdout -p meta -q ");
     system(`cut -f1 -d " " temp_prodigal_orf.faa > temp_orf.faa`);
-    system("hmmsearch --tblout hmm_orf_alignment.txt --cut_tc --notextw --cpu $threads /home/liqi/metagenome_analysis_microcystis/essential.hmm temp_orf.faa > temp_hmm_stdout");
+    system("hmmsearch --tblout hmm_orf_alignment.txt --cut_tc --notextw --cpu $threads $essential_hmm_file_path/essential.hmm temp_orf.faa > temp_hmm_stdout");
 
     open(File,"hmm_orf_alignment.txt");
     open(Temp,">temp.txt");
